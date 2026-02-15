@@ -57,3 +57,5 @@ This project introduces the concept of file descriptor leaks, where keeping a fi
 Given that the new functions mentioned earlier can result in errors for various reasons, it's crucial to implement proper error handling. This includes checking for errors with these functions, verifying the existence and permissions of input/output files, and ensuring the availability of the specified commands. Additionally, after a fork, child processes inherit open file descriptors, so it's vital to close unnecessary descriptors within child processes to prevent leaks.
 
 Remember to exercise caution and diligence when handling file descriptors to ensure the reliability and stability of your code.
+
+[DeepWiki moraisLuismNet/pipex](https://deepwiki.com/moraisLuismNet/pipex)
